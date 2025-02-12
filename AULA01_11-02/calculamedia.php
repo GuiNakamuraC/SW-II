@@ -6,7 +6,9 @@
     echo "NOTA 02: ".$nota2."<br>";
     echo "NOTA 03: ".$nota3."<br>";
     echo "<br>";
-    $media = 7;
+
+    $media = ($nota1 + $nota2 + $nota3) / 3;
+
     if ($media >= 6) {
         echo "Média: ".$media." - APROVADO!";
     } else {
