@@ -1,7 +1,7 @@
 <?php
-    $n = 5;
+    $numero = 5;
 
-    for ($n=0; $n < 1; $n++) { 
-        # code...
+    for ($i = 1; $i <= 10; $i++) {
+        echo "$numero X $i = ".($numero * $i)."</br>";
     }
 ?>
