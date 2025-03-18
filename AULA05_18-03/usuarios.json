@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "nome": "Fulano Silva",
+        "email": "fulano@email.com"
+    },
+    {
+        "id": 2,
+        "nome": "Beltrana Oliveira",
+        "email": "beltrana@email.com"
+    },
+    {
+        "id": 3,
+        "nome": "Ciclano Souza",
+        "email": "ciclano@email.com"
+    }
+]

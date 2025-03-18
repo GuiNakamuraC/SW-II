@@ -1,0 +1,17 @@
+[
+    {
+        "nome": "Relogio",
+        "preco": 100,
+        "quantidade": 5
+    },
+    {
+        "nome": "Bracelete",
+        "preco": 30,
+        "quantidade": 20
+    },
+    {
+        "nome": "Colar",
+        "preco": 70,
+        "quantidade": 15
+    }
+]
