@@ -85,7 +85,7 @@
             // Lê os dados enviados no corpo da requisição
             $dados = json_decode(file_get_contents('php://input'), true);
 
-            // Verifica se o "id" foi passado e se os campos obrigatórios foram preenchidos
+            // Verifica se o "id" foi passado e se os campos obrigatórios foram corretamente preenchidos
             if (!isset($dados["id"]) || !isset($dados["nome"]) || !isset($dados["email"])) {
                 http_response_code(400);
                 echo json_encode(["erro" => "ID, nome e email são obrigatórios."], JSON_UNESCAPED_UNICODE);
