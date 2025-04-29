@@ -136,14 +136,14 @@
             foreach ($usuarios as $index => $usuario) {
                 if ($usuario['id'] == $id) {
                     $usuario_encontrado = $usuario;
-                    // Remove o usuário do array
+                    // Remove o usuário do ARRAY
                     array_splice($usuarios, $index, 1);
                     break;
                 }
             }
 
             if ($usuario_encontrado) {
-                // Salva o array atualizado (sem o usuário deletado) no arquivo JSON
+                // Salva o ARRAY atualizado (sem o usuário deletado) no arquivo JSON
                 file_put_contents($arquivo, json_encode($usuarios, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 
                 // Retorna a resposta de sucesso
