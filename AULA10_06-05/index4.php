@@ -1,5 +1,5 @@
 <?php
-$api_url = 'http://localhost/exemplos_aula10_swii/api.php';
+$api_url = 'http://localhost/SW-II/AULA10_06-05/api.php';
 $mensagem = '';
 $erro = '';
 
